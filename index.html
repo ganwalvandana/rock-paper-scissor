@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Rock Paper Scissor</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-</head>
-<body>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
     <h1>Rock Paper Scissor</h1>
-    <div class="choices">
-        <div id="rock" class="image">
-            <img src="images/rock.png" alt="Rock">
-        </div>
-        <div id="paper" class="image">
-            <img src="images/paper.png" alt="Paper">
-        </div>
-        <div id="scissor" class="image">
-            <img src="images/scissor.png" alt="Scissor">
-        </div>
+    <div id="compChoices" class="choices">
+      <div id="rock">
+        <img src="images/rock.png" alt="Rock" />
+      </div>
+      <div id="paper">
+        <img src="images/paper.png" alt="Paper" />
+      </div>
+      <div id="scissor">
+        <img src="images/scissor.png" alt="Scissor" />
+      </div>
+    </div>
+
+    <div id="userChoices" class="choices">
+      <div id="rock">
+        <img src="images/rock.png" alt="Rock" />
+      </div>
+      <div id="paper">
+        <img src="images/paper.png" alt="Paper" />
+      </div>
+      <div id="scissor">
+        <img src="images/scissor.png" alt="Scissor" />
+      </div>
     </div>
 
     <div class="score">
-        <div class="user">
-            <h2 id="userScore">0</h2>
-            <h2>User</h2>
-        </div>
-        <div class="computer">
-            <h2 id="compScore">0</h2>
-            <h2>Computer</h2>
-        </div>
+      <div class="user">
+        <h2 id="userScore">0</h2>
+        <h2>User</h2>
+      </div>
+      <div class="computer">
+        <h2 id="compScore">0</h2>
+        <h2>Computer</h2>
+      </div>
     </div>
     <h3 id="msg">Start the game!</h3>
 
-    <script src='script.js'></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
